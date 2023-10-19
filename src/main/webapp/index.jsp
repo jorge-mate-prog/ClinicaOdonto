@@ -12,7 +12,7 @@
 <%@include file="componentes/bodyPrimera.jsp"%>
 
 
-<<img src="https://www.dentalessanchis.com/wp-content/uploads/2019/02/odontologo.jpg" alt="alt"/>
+<img src="https://www.dentalessanchis.com/wp-content/uploads/2019/02/odontologo.jpg" alt="alt"/>
 <br>
 <%@include file="componentes/bodySegunda.jsp"%>
 

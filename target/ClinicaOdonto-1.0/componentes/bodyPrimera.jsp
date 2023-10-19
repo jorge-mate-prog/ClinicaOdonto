@@ -19,7 +19,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="index.jsp">
                     <i class="fas fa-solid fa-bars"></i>
                     <span>MENU</span></a>
             </li>
@@ -61,6 +61,21 @@
                         <h6 class="collapse-header">Acciones:</h6>
                         <a class="collapse-item" href="">Ver Pacientes</a>
                         <a class="collapse-item" href="">Alta Pacientes</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUsuarios"
+                    aria-expanded="true" aria-controls="collapseUsuarios">
+                    <i class="fas fa-solid fa-user"></i>
+                    <span>Usuarios</span>
+                </a>
+                <div id="collapseUsuarios" class="collapse" aria-labelledby="headingUsuarios"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Acciones:</h6>
+                        <a class="collapse-item" href="SvUsuario">Ver Usuarios</a>
+                        <a class="collapse-item" href="altaUsuarios.jsp">Alta Usuarios</a>
                     </div>
                 </div>
             </li>
